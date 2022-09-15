@@ -13,4 +13,4 @@ data_table1 = TableOne(data, columns=data_columns,
 data_table1 
 print(data_table1.tabulate(tablefmt = "fancy_grid")) #pretty display of data in terminal
 #saving pretty data into new csv
-data_table1.to_csv('/test_data.csv')
+data_table1.to_csv('data/pretty_table1_data.csv')
